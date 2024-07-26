@@ -1,4 +1,4 @@
-FROM node:14.18.2
+FROM node:12
 
 ENV ALLURE_VERSION 2.13.0
 ENV JAVA_HOME /opt/jdk-10.0.1
