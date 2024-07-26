@@ -59,7 +59,7 @@
     "eslint": "npx eslint 'test/**/*.js'",
     "eslint:fix": "npx eslint 'test/**/*.js' --fix"
   },
-  "author": "Mike Rogov",
+  "author": "Aleksandr Geynts",
   "license": "ISC",
   "devDependencies": {
     "@wdio/allure-reporter": "^6.3.0",
