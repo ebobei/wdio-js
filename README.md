@@ -21,26 +21,26 @@ docker-compose run --rm wdio
 
 **E2E регрессионные тесты:**
 
-Запуск регресса Е2Е на релизе в Google Chrome desktop
+Запуск регресса Е2Е в Google Chrome desktop
 ```bash
 ENV=release npm run chrome_desktop_regression
 ```
 
 **Тесты на ошибки:**
 
-Запуск прогона на битрикс ошибки на проде
+Запуск прогона на битрикс ошибки
 ```bash
 ENV=release npm run prod_errors
 ```
 
 **Тесты на заказы:**
 
-Запуск тестов на оформление заказов на релизе
+Запуск тестов на оформление заказов
 ```bash
 ENV=release npm run release_offer
 ```
 
-Запуск тестов на отмену заказов на релизе
+Запуск тестов на отмену заказов
 ```bash
 ENV=release npm run cancel_orders
 ```
