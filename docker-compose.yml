@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  wdio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app:delegated
+    tty: true
+    stdin_open: true
